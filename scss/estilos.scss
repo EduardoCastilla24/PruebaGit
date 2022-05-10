@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&display=swap');
+:root{
+    //<!--================== COLORS ==================-->
+    --Color-Principal: #09c492;
+    --Color-bg: #38424B;
+    --Color-gray: #9AC7BF;
+    --Color-txt: #09A77E;
+    --Color-Shadow: rgba(203, 252, 235, 0.068);
+    //<!--================== FONTS ==================-->
+    --l-font: 2rem;
+    --m-font: 1.75rem;
+    --h2-font: 1.25rem;
+    --normal-font: 1rem;
+    --small-font: .75rem;
+    --smaller-font: .625rem;
+    --font-weight-1: 600;
+    --font-weight-2: 700;
+    //<!--================== MARGINS ==================-->
+    --margin: .75rem;
+    --border: 1.25rem
+}
+
+//<!--================== BASE ==================-->
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Quicksand', sans-serif;
+} 
